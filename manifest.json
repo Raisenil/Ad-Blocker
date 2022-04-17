@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Personal Adblocker",
+    "version": "1.0",
+    "description": "Personal Adblocker for testing",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "icons": {
+        "16": "icons/test_logo_16x16.png",
+        "48": "icons/test_logo_48x48.png",
+        "128": "icons/test_logo_128x128.png"
+    }
+}
