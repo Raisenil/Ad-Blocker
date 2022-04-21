@@ -3,9 +3,9 @@
     "name": "Personal Adblocker",
     "version": "1.0",
     "description": "Personal Adblocker for testing",
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "http://*/", "https://*/"],
     "background": {
-        "scripts": ["background.js"]
+        "scripts": ["defaultFilters.js", "background.js"]
     },
 
     "icons": {
